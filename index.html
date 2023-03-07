@@ -1,0 +1,26 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2 class="text-field">Find your film</h2>
+                <p class="text-watch"><a class="text-watch" href="watchlist.html">My watchlist</a></p>
+                 <!--<a href="watchlist.html" target="_blank" class="text-watch">My watchlist</a>-->
+            </div>
+            <form id="form" class="search-movie">
+                <input id="search" class="movie-search-text" type="text" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome" />
+                <button class="search-text">Search</button>
+            </form>
+            <div class="display-movies" id="display-movies">
+              <div class="empty-state-icon" id="empty-state-icon">
+                <img class="empty-img" src="images/watchlist-empty-icon.png">
+                <P class="text-explore">Start exploring</p>
+              </div>       
+            </div>
+               
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html> 
